@@ -1,18 +1,11 @@
-#include <iostream>
-#include <string>
-#include <cstdlib>
-#include <ctime>
-#include <limits>
-#include <vector>
-#include <queue>
-#include <unordered_map>
+#include <bits/stdc++.h>
 using namespace std;
 
 const int PASSWORD = 123;
 const int INF = numeric_limits<int>::max();
 const int AIRPORTS = 5;
 
-string airportNames[AIRPORTS] = {"DELHI", "MUMBAI", "CHENNAI", "KOLKATA", "BENGALURU"};
+string airportNames[AIRPORTS] = {"DELHII", "MUMBAI", "CHENNAI", "KOLKATA", "BENGALURU"};
 unordered_map<string, int> airportIndex = {
     {"DELHI", 0}, {"MUMBAI", 1}, {"CHENNAI", 2}, {"KOLKATA", 3}, {"BENGALURU", 4}
 };
